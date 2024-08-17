@@ -10,9 +10,9 @@ rm -rf feeds/packages/lang/golang
 rm -rf feeds/luci/applications/luci-app-mosdns
 
 # 加入第三方源
-echo "src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-echo "src-git small https://github.com/kenzok8/small' feeds.conf.default
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' feeds.conf.default
+echo 'src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
 
 # 更换golong 1.22
 git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
