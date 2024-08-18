@@ -34,18 +34,21 @@
 
 
 ## 插件列表 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
-1.passwall
-2.passwall2
-3.openclash
-4.mihomo
-5.mosdns
-6.smartdns
-7.AdGuardHome
-8.homeproxy
-9.ShadowSocksR Plus+
-10.ddns-go
-11.Uhttpd
-12.Upnp
+<br/>
+<details>
+<summary><b>├── 插件列表</b></summary>
+　├── passwall<br/>
+　├── passwall2<br/>
+　├── openclash<br/>
+　├── mihomo<br/>
+　├── mosdns<br/>
+　├── smartdns<br/>
+　├── AdGuardHome<br/>
+　├── homeproxy<br/>
+　├── ShadowSocksR Plus+<br/>
+　├── WireGuard 状态<br/>
+　├── ddns-go<br/>
+　└── Upnp
 ## 定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
 1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库
 2. 修改 `configs` 目录对应文件添加或删除插件，或者上传自己的 `xx.config` 配置文件
