@@ -28,5 +28,8 @@ git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/kenzo
 git clone --depth=1 https://github.com/kenzok8/small package/small
 git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/mihomo
 
+# 更换golong 1.22
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
