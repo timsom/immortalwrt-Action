@@ -22,7 +22,7 @@
 2. 集成部分常用有线、无线、3G / 4G 网卡驱动
 4. 集成 iStore 应用商店，可根据自己需求自由安装所需插件
 5. 集成 Docker 服务，可在 OpenWrt 内自由部署 Docker 应用
-8. Rockchip系列固件集成GPU驱动,x86系列请切换LEDE分支 固件下载地址 [oppen321](https://github.com/oppen321/haibo-OpenWrt)
+8. Rockchip系列固件集成GPU驱动,x86系列请切换LEDE分支 固件下载地址 [oppen321-LEDE](https://github.com/oppen321/haibo-OpenWrt)
 
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
