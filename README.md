@@ -1,7 +1,6 @@
 <a id="immortalwrt-在线编译"></a>
 # ImmortalWrt 在线编译 by oppen321
 
-[Click here to switch to English](#immortalwrt-online-compilation-by-oppen321)
 
 欢迎来到 ImmortalWrt 的在线编译仓库！该项目通过 GitHub Actions 自动构建适用于各种设备的 ImmortalWrt 固件。无论您是定制固件还是只需要最新的构建，本文档将帮助您快速入门。
 
