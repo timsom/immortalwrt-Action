@@ -46,7 +46,6 @@
 　├── AdGuardHome<br/>
 　├── homeproxy<br/>
 　├── ShadowSocksR Plus+<br/>
-　├── WireGuard 状态<br/>
 　├── ddns-go<br/>
 　└── Upnp
    </details>
