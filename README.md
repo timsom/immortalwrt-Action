@@ -4,11 +4,13 @@
 
 欢迎来到 ImmortalWrt 的在线编译仓库！该项目通过 GitHub Actions 自动构建适用于各种设备的 ImmortalWrt 固件。无论您是定制固件还是只需要最新的构建，本文档将帮助您快速入门。
 
-## 特性
+## 固件特色
 
 - 自动化构建： GitHub Actions 会根据您的配置自动编译固件。
 - 可定制化： 轻松修改配置文件以满足您的特定需求。
 - 插件集成： 包含流行的插件，如 PassWall、OpenClash、HomeProxy 等。
+- Docker支持： 加入luci-app-dockerman，用户可以在设备上跑docker项目。
+- iStore支持： 加入iStore，用户可以在iStore里下载想要的插件
 - 每日更新： 保持固件与 ImmortalWrt 项目的最新变更同步。
 
 ## 使用方法
