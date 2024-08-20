@@ -40,7 +40,7 @@
 - passwall2
 - OpenClash
 - HomeProxy
-- Mihome
+- Mihomo
 - ssr-plus
 - AdGuardhome
 - Mosdns
