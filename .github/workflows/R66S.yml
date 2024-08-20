@@ -1,8 +1,9 @@
 name: r66s_OpenWrt
 
 on:
-  watch:
-    types: started
+  workflow_dispatch:
+# schedule:
+#    - cron: 0 20 * * *
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
