@@ -1,9 +1,8 @@
 name: Rockchip_OpenWrt
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 18 * * *
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
