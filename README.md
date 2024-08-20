@@ -22,12 +22,11 @@
 修改配置文件以指定您所需的设置：
 
 - .config: 包含构建的基础配置。根据需要调整以包含或排除功能和软件包。
-- diy-part1.sh: 自定义预编译设置（例如添加源）。
-- diy-part2.sh: 后期编译自定义（例如修改镜像，添加主题）。
+- diy-scipt.sh: 自定义预编译设置（例如添加源），后期编译自定义（例如修改镜像，添加主题）。
 
 ### 3. 触发构建
-
-配置好设置后，您可以手动触发构建，也可以让 GitHub Actions 根据您的提交自动构建。
+1.修改增加仓库TOKEN密钥。
+2.配置好设置后，您可以手动触发构建，也可以让 点击Start激活编译程序 根据您的提交自动构建。
 
 ### 4. 下载固件
 
@@ -38,14 +37,21 @@
 该仓库集成了几个流行的插件：
 
 - PassWall
+- passwall2
 - OpenClash
 - HomeProxy
 - Mihome
-- luci-app-argon-config
+- ssr-plus
+- AdGuardhome
+- Mosdns
+- Smartdns
+- ddns-go
+- dockerman
+- Istore
 
 ### 自定义插件仓库
 
-如果您想包含额外的插件，只需将它们添加到 plugins 目录或在 Fork 中修改现有的插件。
+如果您想包含额外的插件，只需将它们添加到 configs 目录或在 diy-script.sh 中插入软件插件源。
 
 ## 定期更新
 
@@ -67,6 +73,8 @@
 
 - [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
 - [OpenWrt](https://github.com/openwrt/openwrt)
+- [haibo](https://github.com/haiibo/OpenWrt)
+- [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
 - 特别感谢开源社区的贡献！
 
 ---
