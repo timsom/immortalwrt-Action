@@ -1,8 +1,9 @@
 name: x86_OpenWrt
 
 on:
-  watch:
-    types: started
+  workflow_dispatch:
+  schedule:
+    - cron: 0 19 * * *
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
