@@ -1,4 +1,4 @@
-name: r66s_OpenWrt
+name: r66s_(master)OpenWrt
 
 on:
   workflow_dispatch:
