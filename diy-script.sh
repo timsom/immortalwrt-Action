@@ -33,6 +33,7 @@ function git_sparse_clone() {
 git clone --depth=1 https://github.com/oppen321/openwrt-packages package/oppen321
 git clone --depth=1 https://github.com/oppen321/Helloword package/Helloword
 
+
 # 更换golong 1.22
 git clone https://github.com/oppen321/golang feeds/packages/lang/golang
 
