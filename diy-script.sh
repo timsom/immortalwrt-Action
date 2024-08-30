@@ -32,7 +32,6 @@ function git_sparse_clone() {
 # 加入第三方源
 git clone --depth=1 https://github.com/oppen321/openwrt-packages package/oppen321
 git clone --depth=1 https://github.com/oppen321/Helloword package/Helloword
-git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/mihomo
 
 # 更换golong 1.22
 git clone https://github.com/oppen321/golang feeds/packages/lang/golang
