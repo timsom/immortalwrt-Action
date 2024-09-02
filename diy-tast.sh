@@ -31,8 +31,8 @@ git_sparse_clone dev https://github.com/vernesong/OpenClash luci-app-openclash
 git_sparse_clonehttps://github.com/morytyann/OpenWrt-mihomo.git
 git clone https://github.com/Thaolga/luci-app-nekoclash  package/luci-app-nekoclash
 
-# 更换golong 1.22
-
+# 更换golong 1.23
+git clone https://github.com/oppen321/golang feeds/packages/lang/golang
 
 # 主题壁纸
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
